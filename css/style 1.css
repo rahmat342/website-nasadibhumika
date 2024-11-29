@@ -1,0 +1,122 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header a,
+.footer a {
+  text-decoration: none;
+  color: #333;
+}
+.header a:hover,
+.footer a:hover {
+  text-decoration: underline;
+}
+.content {
+  text-align: center;
+  padding: 50px 0;
+}
+.content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.image-section {
+  width: 100%;
+  margin: 50px 0;
+}
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+.quote-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.quote-section .quote {
+  font-size: 24px;
+  font-style: italic;
+}
+.quote-section .author {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.team-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+.team-section .team-member {
+  width: 30%;
+  text-align: center;
+}
+.team-section .team-member img {
+  width: 100%;
+  height: auto;
+}
+.team-section .team-member p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.stats-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.stats-section .stat {
+  text-align: center;
+  width: 23%;
+}
+.stats-section .stat h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.stats-section .stat p {
+  font-size: 18px;
+}
+.social-links {
+  text-align: center;
+  padding: 20px 0;
+}
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+.menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.menu a {
+  margin: 5px 0;
+}
